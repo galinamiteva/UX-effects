@@ -69,7 +69,7 @@ body.signup  .container
     position: absolute;
     width: 100%;
     height: 100%;    
-    background: repeating-conic-gradient(from var(--a), #45f3ff 0%, #45f3ff 10%,transparent 10%, transparent 80%, #45f3ff 100%);
+    background: repeating-conic-gradient(from var(--a), #c0c3fffd 0%, #45f3ff 10%,transparent 10%, transparent 80%, #45f3ff 100%);
     border-radius: 20px;
     animation: animate 2.5s linear infinite;
 }
@@ -156,10 +156,12 @@ form#signupForm
 {
     left: 100%;
 }
+
 body.signup form#signinForm
 {
     left: -100%;
 }
+
 body.signup form#signupForm
 {
     left: 0;
@@ -215,7 +217,7 @@ form .inputBox input::placeholder
 form .inputBox input[type="submit"]
 {
    
-    background: #21c9f3;
+    background: #196679;
     font-weight: 500;
     cursor: pointer;
 }
